@@ -18,7 +18,7 @@ const CustomTooltip = ({ active, payload }) => {
     return (
       <div className="bg-gray-900 bg-opacity-80 backdrop-blur-sm text-white p-3 rounded-lg border border-gray-700 shadow-xl">
         <p className="font-semibold">{payload[0].name}</p>
-        <p className="text-blue-300">${payload[0].value.toFixed(2)}</p>
+        <p className="text-blue-300">₹{payload[0].value.toFixed(2)}</p>
         <p className="text-xs text-gray-400 mt-1">{((payload[0].payload.percent || 0) * 100).toFixed(1)}% of total</p>
       </div>
     );
