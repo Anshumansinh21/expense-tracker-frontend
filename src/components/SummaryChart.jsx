@@ -61,7 +61,7 @@ export default function SummaryChart({ data }) {
           Expense Breakdown
         </h2>
         <div className="text-sm font-semibold bg-white py-1 px-3 rounded-full shadow-sm">
-          Total: <span className="text-blue-600">${totalExpense.toFixed(2)}</span>
+          Total: <span className="text-blue-600">₹{totalExpense.toFixed(2)}</span>
         </div>
       </div>
       
